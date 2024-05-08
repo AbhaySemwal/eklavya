@@ -12,7 +12,7 @@ const Topbar = () => {
                             <h1 className='font-semibold text-6xl leading-normal'>Eklavya: The Silent Killer</h1>
                             <p className='text-sm'>Velit dolor ullamco non enim dolor velit occaecat. Nostrud laborum esse pariatur et non cillum aliqua.</p>
                         </div>
-                        <div className='flex gap-2'>
+                        <div className='flex gap-5'>
                             <button className='p-2.5 border-2 bg-blue-500 text-white'>Get Started</button>
                             <button className='p-2.5 border-2'>Watch Tutorials</button>
                         </div>
