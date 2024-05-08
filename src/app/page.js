@@ -1,3 +1,4 @@
+import Chooseus from "@/components/chooseus/Chooseus";
 import Navbar from "@/components/navbar/Navbar";
 import Topbar from "@/components/topbar/Topbar";
 // import AboutUs
@@ -9,6 +10,7 @@ export default function Home() {
       <Navbar/>
       {/* <AboutUs/> */}
       <Topbar/>
+      <Chooseus/>
     </div>
   );
 }
