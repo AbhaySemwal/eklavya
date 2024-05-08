@@ -2,7 +2,14 @@ import React from 'react'
 
 const Topbar = () => {
   return (
-    <div>Topbar</div>
+    <div className='mx-auto w-5/6'>
+        <div>
+            <div>
+                <h1>Eklavya: The Silent Killer</h1>
+                
+            </div>
+        </div>
+    </div>
   )
 }
 
