@@ -63,7 +63,7 @@ const AboutUs = () => {
       <div className='grid grid-cols-4 gap-5'>
         {
           data.map((d)=>(
-            <Card3 data={d}/>
+            <Card3 key={d.id} data={d}/>
           ))
         }
       </div>

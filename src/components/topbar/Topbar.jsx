@@ -32,7 +32,7 @@ const Topbar = () => {
       {/* Modal */}
       {isModalOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-8 rounded-lg">
+          <div className="bg-[#2b213b] p-8 rounded-lg">
             {/* Video player */}
             {/* <iframe 
               width="560" 
@@ -44,7 +44,7 @@ const Topbar = () => {
               allowFullScreen
             ></iframe> */}
             <iframe width="815" height="567" src="https://www.youtube.com/embed/Evut8BfrZ2U" title="Eminem - Doomsday 2 (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <button className="mt-4 p-2.5 border-2 border-black text-black" onClick={toggleModal}>Close</button>
+            <button className="mt-4 p-2.5 border-2 border-white text-white" onClick={toggleModal}>Close</button>
           </div>
         </div>
       )}
