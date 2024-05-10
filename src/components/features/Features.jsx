@@ -24,7 +24,7 @@ const data=[
 ];
 const Features = () => {
   return (
-    <div className='w-5/6 flex flex-col items-center justify-center gap-5 mx-auto py-10'>
+    <div className='w-5/6 flex flex-col items-center justify-center gap-10 mx-auto py-32'>
         <div className='flex flex-col items-center gap-3'>
             {/* <h3 className='text-lg text-blue-400'>Our Features</h3> */}
             <h5 className='text-4xl font-semibold'>Comparison with Existing Solutions</h5>

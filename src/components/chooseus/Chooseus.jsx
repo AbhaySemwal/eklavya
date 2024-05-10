@@ -22,8 +22,7 @@ const Chooseus = () => {
   return (
     <div className='flex flex-col gap-10 py-10'>
         <div className='flex flex-col items-center justify-center gap-2'>
-            <h1 className='text-4xl font-semibold'>Safe, Guaranteed, and easy to use</h1>
-            <p>Labore ullamco exercitation proident deserunt deserunt laboris.</p>
+            <h1 className='text-4xl font-semibold'>What We Offer?</h1>
         </div>
         <div className='flex mx-auto w-11/12 gap-4'>
             {

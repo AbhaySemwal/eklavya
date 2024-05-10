@@ -2,7 +2,7 @@ import Chooseus from "@/components/chooseus/Chooseus";
 import Features from "@/components/features/Features";
 import Navbar from "@/components/navbar/Navbar";
 import Topbar from "@/components/topbar/Topbar";
-import Solution from "@/components/solution/Solution";
+import Solution from "@/components/vision/Solution";
 import Impl from "@/components/impl/Impl";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <Chooseus/>
       <Solution/>
       <Features/>
-      <Impl/>
+      {/* <Impl/> */}
     </div>
   );
 }

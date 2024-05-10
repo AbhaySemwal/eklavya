@@ -3,7 +3,7 @@ import Link from 'next/link';
 function Navbar() {
 
   return (
-    <div className="border-[#676767] border-[2px] p-3 flex justify-center items-center text-white"> 
+    <div className="border-[#676767] border-[2px] p-5 flex justify-center items-center text-white"> 
         <div className='w-5/12 mx-auto'>
             <ul className="flex justify-between">
                 <li>
