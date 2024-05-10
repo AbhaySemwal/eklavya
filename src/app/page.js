@@ -2,7 +2,8 @@ import Chooseus from "@/components/chooseus/Chooseus";
 import Features from "@/components/features/Features";
 import Navbar from "@/components/navbar/Navbar";
 import Topbar from "@/components/topbar/Topbar";
-import Vision from "@/components/vision/Vision";
+import Solution from "@/components/solution/Solution";
+import Impl from "@/components/impl/Impl";
 
 export default function Home() {
   return (
@@ -10,8 +11,9 @@ export default function Home() {
       <Navbar/>
       <Topbar/>
       <Chooseus/>
-      <Vision/>
+      <Solution/>
       <Features/>
+      <Impl/>
     </div>
   );
 }
