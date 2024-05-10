@@ -20,7 +20,7 @@ const data=[
 ];
 const Chooseus = () => {
   return (
-    <div className='flex flex-col gap-10 py-10'>
+    <div id='strategy' className='flex flex-col gap-10 py-10'>
         <div className='flex flex-col items-center justify-center gap-2'>
             <h1 className='text-4xl font-semibold'>What We Offer?</h1>
         </div>
