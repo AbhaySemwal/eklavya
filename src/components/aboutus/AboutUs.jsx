@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Navbar from '../navbar/Navbar'
 import Card3 from '../card3/Card3'
+import Footer from '../footer/Footer'
 
 const data=[
   {
