@@ -4,18 +4,18 @@ import Card1 from '../card1/Card1'
 const data=[
     {
         id:0,
-        title:"Safe and Secure",
-        desc:"Veniam aliqua dolore aliquip eiusmod sit mollit commodo ipsum ea. Aliqua proident fugiat cupidatat aliquip ex magna labore qui fugiat magna cillum nulla reprehenderit."
+        title:"Lazer Detection System",
+        desc:"Deploy laser sensors along the boundary to create a virtual perimeter. When an intruder crosses this boundary, the laser detection system triggers an alert"
     },
     {
         id:1,
-        title:"Safe and Secure",
-        desc:"Veniam aliqua dolore aliquip eiusmod sit mollit commodo ipsum ea. Aliqua proident fugiat cupidatat aliquip ex magna labore qui fugiat magna cillum nulla reprehenderit."
+        title:"Joystick Controlled Laser",
+        desc:"A joystick interface helps to precisely control the laser's direction and intensity, offering flexibility in targeting intruders while mitigating collateral damage risks."
     },
     {
         id:2,
-        title:"Safe and Secure",
-        desc:"Veniam aliqua dolore aliquip eiusmod sit mollit commodo ipsum ea. Aliqua proident fugiat cupidatat aliquip ex magna labore qui fugiat magna cillum nulla reprehenderit."
+        title:"Integration with Survelliance",
+        desc:"The system can integrate with existing surveillance cameras to provide visual confirmation of intrusions and improve response coordination.        "
     },
 ];
 const Chooseus = () => {
