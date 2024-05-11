@@ -43,7 +43,7 @@ const Topbar = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
               allowFullScreen
             ></iframe> */}
-            <iframe width="815" height="567" src="/video.mp4" title="Eminem - Doomsday 2 (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="815" height="567" src="/vdo.mp4" title="Eminem - Doomsday 2 (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <button className="mt-4 p-2.5 border-2 border-white text-white" onClick={toggleModal}>Close</button>
           </div>
         </div>
