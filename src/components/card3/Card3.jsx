@@ -15,7 +15,7 @@ const Card3 = ({data}) => {
         <h3 className='font-semibold'>Contact: </h3>
         <h5>{data.contact}</h5>
       </div>
-      <div className='flex gap-1'>
+      <div className='flex flex-wrap gap-1'>
         <h3 className='font-semibold'>Email: </h3>
         <h5>{data.email}</h5>
       </div>
