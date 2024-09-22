@@ -82,7 +82,7 @@ const AboutUs = () => {
     </div>
     <div className='w-11/12 mx-auto flex flex-col items-center gap-8 text-white py-5'>
       <h2 className='text-5xl font-semibold text-center'>Team Members</h2>
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='grid grid-cols-3 gap-5'>
         {
           data.map((d)=>(
             <Card3 key={d.id} data={d}/>
